@@ -1,0 +1,169 @@
+h2{
+    color: aqua;
+    background-color: black;
+}
+#a {
+    text-shadow: 3px 2px 3px;
+}
+#b {
+    text-shadow: 0 0 3px;
+}
+#c {
+    text-shadow: 0 0 3px red;
+}
+#d {
+    text-shadow: 10px 10px 3px red, -10px -10px 3px blue;
+}
+#e {
+    margin-bottom: 40px;
+    text-shadow: 10px 10px 1px red, 20px 20px 1px blue;
+}
+#elem {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: 20px 30px black;
+}
+#elem1 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: 20px 30px 10px black;
+}
+#elem2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: 20px 30px 10px black, -20px -30px 10px black;
+}
+#elem3 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px black;
+}
+#elem4 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px blue, inset -5px -5px 10px red;
+}
+#ele {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to top, #fefcea, #f1da36);
+}
+#ele1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to left, #fefcea, #f1da36);
+}
+#ele2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to right, #fefcea, #f1da36);
+}
+#ele3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to top left, red, white);
+}
+#ele4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to right, red 0px, blue 200px, white 350px, red);
+}
+#ele5 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(0deg, red 0px, red 100px, white 100px, white 200px, red 200px, red 300px);
+}
+#el1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(#55ddff, #0081b5);
+}
+#el2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(at top, #55ddff, #0081b5);
+}
+#el3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle, #55ddff, #0081b5);
+}
+#el4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(ellipse, #55ddff, #0081b5);
+}
+#el5 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle closest-side, #55ddff, #0081b5);
+}
+#el6 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle closest-corner at 30px 40px, #55ddff, #0081b5);
+}
+#el7 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle closest-side, #333 10px, white 30px, white 40px, green 50px);
+}
+#el8 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle closest-side, green 0px, green 30px, white 30px, white 50px, green 50px);
+}
+#e6 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-linear-gradient(90deg,white, white 5px, black 5px, black 10px);
+}
+#e1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-linear-gradient(0deg, white, white 5px, black 5px, black 10px);
+}
+#e2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-linear-gradient(to top, white, white 5px, black 5px, black 6px);
+}
+#e3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-linear-gradient(45deg, white, white 5px, red 5px, red 8px);
+}
+#elemm {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-radial-gradient(circle, black, black 5px, white 5px, white 10px);
+}
